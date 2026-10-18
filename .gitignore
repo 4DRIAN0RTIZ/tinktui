@@ -1,0 +1,11 @@
+/target
+
+# arnés multiagente, local, no se commitea
+/AGENTS.md
+/CLAUDE.md
+/docs/
+/feature_list.json
+/progress/
+/CHECKPOINTS.md
+/init.sh
+/.claude/agents/

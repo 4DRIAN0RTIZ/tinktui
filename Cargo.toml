@@ -1,0 +1,13 @@
+[package]
+name = "tinker-tui"
+version = "0.1.0"
+edition = "2024"
+description = "TUI en ratatui para ejecutar código en Laravel Tinker"
+
+[dependencies]
+anyhow = "1"
+dirs = "6"
+ratatui = "0.30"
+ratatui-textarea = "0.9"
+# preserve_order: las columnas de la tabla salen en el orden del modelo, no alfabético.
+serde_json = { version = "1", features = ["preserve_order"] }

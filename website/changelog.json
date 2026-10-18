@@ -1,0 +1,65 @@
+[
+  {
+    "version": "v0.1.0",
+    "message": "Release v0.1.0",
+    "timestamp": 1792216800,
+    "commits": [
+      {
+        "id": null,
+        "message": "Escribir la consulta en un editor y ejecutarla con Ctrl+R o F5",
+        "group": "Features",
+        "scope": null,
+        "author": { "name": "Neandertech", "timestamp": 1792216800 }
+      },
+      {
+        "id": null,
+        "message": "Ver colecciones de Eloquent como tabla, y un modelo como campo → valor",
+        "group": "Features",
+        "scope": null,
+        "author": { "name": "Neandertech", "timestamp": 1792216800 }
+      },
+      {
+        "id": null,
+        "message": "Dejar fuera de la tabla los campos de $hidden",
+        "group": "Features",
+        "scope": null,
+        "author": { "name": "Neandertech", "timestamp": 1792216800 }
+      },
+      {
+        "id": null,
+        "message": "Abrir el código en $EDITOR y volver con el buffer listo",
+        "group": "Features",
+        "scope": null,
+        "author": { "name": "Neandertech", "timestamp": 1792216800 }
+      },
+      {
+        "id": null,
+        "message": "Guardar el historial entre sesiones",
+        "group": "Features",
+        "scope": null,
+        "author": { "name": "Neandertech", "timestamp": 1792216800 }
+      },
+      {
+        "id": null,
+        "message": "Correr Tinker en un contenedor Docker o en un proyecto local",
+        "group": "Features",
+        "scope": null,
+        "author": { "name": "Neandertech", "timestamp": 1792216800 }
+      },
+      {
+        "id": null,
+        "message": "Ignorar el marcador que PsySH repite por stdin para que vuelva la vista de tabla",
+        "group": "Bug Fixes",
+        "scope": null,
+        "author": { "name": "Neandertech", "timestamp": 1792216800 }
+      },
+      {
+        "id": null,
+        "message": "Colorear la salida clásica de PsySH en la vista raw",
+        "group": "Features",
+        "scope": null,
+        "author": { "name": "Neandertech", "timestamp": 1792216800 }
+      }
+    ]
+  }
+]
