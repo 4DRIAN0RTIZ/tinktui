@@ -24,16 +24,18 @@ jobs:
 
       - name: Install git-cliff
         uses: orhun/git-cliff-action@v4
-        id: bumped
         with:
-          config: cliff.toml
-          args: --bumped-version
+          args: --version
 
       - name: Compute version and decide if release is needed
         id: compute
         run: |
-          VERSION="$(echo "${{ steps.bumped.outputs.content }}" | tail -n 1 | tr -d '[:space:]')"
           LATEST_TAG="$(git tag --list 'v*' --sort=-v:refname | head -n 1 || true)"
+          if [[ -z "$LATEST_TAG" ]]; then
+            VERSION='v0.1.0'
+          else
+            VERSION="$("$RUNNER_TEMP/git-cliff/bin/git-cliff" --config cliff.toml --bumped-version | tail -n 1 | tr -d '[:space:]')"
+          fi
           echo "Latest tag: ${LATEST_TAG:-none}"
           echo "Calculated version: $VERSION"
           if [[ -z "$VERSION" || "$VERSION" == "$LATEST_TAG" ]]; then
