@@ -26,6 +26,8 @@ Tinker is great for exploring a Laravel application's data, but it has a few rou
 
 **TinkTui** solves this: write in an editor, run with one key, and see the result in a table.
 
+Read the full documentation at [tinktui.cuevaneander.tech](https://tinktui.cuevaneander.tech).
+
 ## Features
 
 - **Write and run** with `Ctrl+R` or `F5`. The result appears below along with its execution time.
