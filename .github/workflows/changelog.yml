@@ -6,6 +6,7 @@ on:
     paths-ignore:
       - CHANGELOG.md
       - website/changelog.json
+  workflow_dispatch: {}
 
 permissions:
   contents: write
