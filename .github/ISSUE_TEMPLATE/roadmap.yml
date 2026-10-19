@@ -1,0 +1,28 @@
+name: Roadmap item
+description: A public item in the Tinktui roadmap.
+title: ""
+labels: ["roadmap"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Choose one status label: `roadmap:working`, `roadmap:planned`, `roadmap:idea`, or `roadmap:now`.
+        Acceptance criteria belong in the local `feature_list.json`, linked through this issue number.
+        Put information after `===` in Detail; it stays in GitHub and is never treated as public roadmap copy.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What it is and why, in one or two sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      description: Optional implementation checklist, one task per line.
+  - type: textarea
+    id: detail
+    attributes:
+      label: Detail
+      description: Optional internal context. Start private-only notes after ===.

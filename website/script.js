@@ -2,7 +2,7 @@
 // from changelog.json (git-cliff --context, newest first), same as NeoComposer.
 // Commit links appear only when CHANGELOG_REPO is set and the commit has an id.
 
-const CHANGELOG_REPO = '';
+const CHANGELOG_REPO = '4DRIAN0RTIZ/tinktui';
 const SPINNER = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏'];
 
 const GROUP_CLASS = {
